@@ -1,0 +1,5 @@
+Flask
+pytest
+requests
+Werkzeug
+pytest-json-report
