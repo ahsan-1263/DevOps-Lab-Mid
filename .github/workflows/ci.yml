@@ -22,11 +22,11 @@ jobs:
       - name: Install Dependencies
         shell: powershell
         run: |
-          py -3.12 -m pip install --upgrade pip
-          py -3.12 -m pip install -r requirements.txt
+         python -m pip install --upgrade pip
+         python -m pip install -r requirements.txt
 
       - name: Run Automated Tests
-        id: tests
+        id: testsmn
         continue-on-error: true
         shell: powershell
         run: |
